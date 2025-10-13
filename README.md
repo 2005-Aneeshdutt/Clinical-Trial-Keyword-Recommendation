@@ -81,12 +81,15 @@ Clinical-Trial-Keyword-Recommendation/
 ├── results/                  # Analysis results and plots
 └── tools/                    # Utility scripts
 
+
 🔬 Methodology
 Data Processing: Extract MeSH terms from clinical trial XML documents
 Feature Engineering: Create TF-IDF utility matrix
 Model Training: Train collaborative filtering model with ReLU activation
 Evaluation: Test using MSE and AP@K metrics
 Recommendation: Generate keyword suggestions for new documents
+
+
 📈 Performance
 The model demonstrates excellent performance with consistent results across training, validation, and test sets:
 Training MSE: 0.0147
@@ -96,8 +99,10 @@ AP@K: 0.4602
 🎓 Authors
 N Aneesh Dutt - GitHub
 Prachi Jha
+
 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
+
 🙏 Acknowledgments
 ClinicalTrials.gov for providing the dataset
 Medical Subject Headings (MeSH) thesaurus
