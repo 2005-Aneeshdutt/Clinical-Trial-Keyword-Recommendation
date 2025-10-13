@@ -71,3 +71,34 @@ python scripts/final_recommendations.py
 ```
 
 ## 📁 Project Structure
+Clinical-Trial-Keyword-Recommendation/
+├── clinical_trials/          # Clinical trial data processing
+├── mesh/                     # MeSH term handling
+├── ml/                       # Machine learning models
+├── scripts/                  # Main execution scripts
+├── analysis/                 # Results analysis
+├── output/                   # Generated models and data
+├── results/                  # Analysis results and plots
+└── tools/                    # Utility scripts
+
+🔬 Methodology
+Data Processing: Extract MeSH terms from clinical trial XML documents
+Feature Engineering: Create TF-IDF utility matrix
+Model Training: Train collaborative filtering model with ReLU activation
+Evaluation: Test using MSE and AP@K metrics
+Recommendation: Generate keyword suggestions for new documents
+📈 Performance
+The model demonstrates excellent performance with consistent results across training, validation, and test sets:
+Training MSE: 0.0147
+Validation MSE: 0.0148
+Test MSE: 0.0147
+AP@K: 0.4602
+🎓 Authors
+N Aneesh Dutt - GitHub
+Prachi Jha
+📄 License
+This project is licensed under the MIT License - see the LICENSE file for details.
+🙏 Acknowledgments
+ClinicalTrials.gov for providing the dataset
+Medical Subject Headings (MeSH) thesaurus
+Python scientific computing community
