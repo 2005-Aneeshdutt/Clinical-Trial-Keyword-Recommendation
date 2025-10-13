@@ -30,7 +30,6 @@ This project implements a collaborative filtering algorithm to recommend relevan
 ## 🚀 Getting Started
 
 ### Prerequisites
-- Python 3.8+
 - Required packages (see requirements.txt)
 
 ### Installation
