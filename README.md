@@ -6,7 +6,7 @@ A collaborative filtering system for recommending Medical Subject Headings (MeSH
 
 This project implements a collaborative filtering algorithm to recommend relevant keywords for clinical trial documents. The system processes clinical trial data from ClinicalTrials.gov and uses MeSH terms to provide intelligent keyword recommendations for researchers.
 
-## 📊 Results
+##  Results
 
 - **Mean Squared Error (MSE)**: 0.0147
 - **Average Precision at K (AP@K)**: 0.4607
@@ -14,7 +14,7 @@ This project implements a collaborative filtering algorithm to recommend relevan
 - **Features**: 134 MeSH terms
 - **Performance**: No overfitting detected
 
-## 🏗️ System Architecture
+##  System Architecture
 
 ### Data Engineering Module
 - XML parsing from ClinicalTrials.gov
@@ -27,7 +27,7 @@ This project implements a collaborative filtering algorithm to recommend relevan
 - Mini-batch gradient descent optimization
 - L2 regularization
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Required packages (see requirements.txt)
@@ -90,13 +90,13 @@ Evaluation: Test using MSE and AP@K metrics
 Recommendation: Generate keyword suggestions for new documents
 
 
-📈 Performance
+ Performance
 The model demonstrates excellent performance with consistent results across training, validation, and test sets:
 Training MSE: 0.0147
 Validation MSE: 0.0148
 Test MSE: 0.0147
 AP@K: 0.4602
-🎓 Authors
+Authors
 N Aneesh Dutt - GitHub
 Prachi Jha
 
